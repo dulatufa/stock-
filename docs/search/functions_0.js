@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['add_7',['add',['../main_8cpp.html#aa99823a0fc8313c9c32541ce768fb801',1,'main.cpp']]]
+  ['average_17',['average',['../classoptions.html#a4af7cee6356c15ce1c6d0aec12148520',1,'options']]]
 ];

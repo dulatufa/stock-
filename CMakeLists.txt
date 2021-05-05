@@ -8,7 +8,7 @@ set(DOXYGEN_IN_FILE "Doxyfile.in")
 set(DOXYGEN_README_FILE "../README.md")
 # Be sure to change the executable name, 
 # and change the input file name if it is different.
-add_executable(doxygenDemo ${PROJECT_SOURCE_DIR}/main.cpp)
+add_executable(main ${PROJECT_SOURCE_DIR}/main.cpp)
 
 include(CTest)
 enable_testing()

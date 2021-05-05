@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_8',['main',['../main_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0',1,'main.cpp']]]
+  ['checker_18',['checker',['../classoptions.html#aff496d59f7e6155029f0e325078cd228',1,'options']]]
 ];

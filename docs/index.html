@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>aardvark: doxygen-cmake-github</title>
+<title>aardvark: Options-algo</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,97 +63,37 @@ $(function() {
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">doxygen-cmake-github </div>  </div>
+<div class="title">Options-algo </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Demonstrates Doxygen html generation and publishing on GitHub Pages. The Doxygen files for this project can be seen <a href="https://semcneil.github.io/doxygen-cmake-github/">here</a>.</p>
+<div class="textblock"><p>This program demonestrates how to optimize option contracts porfolio according to the average of amount expiring option contracts expiring from a data set given by the developer.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
+Why</h1>
+<p>The finance industry is growing in tremendous speed by using technology. Project like this play fundamental roles in quantitative finance firms.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
 How to use</h1>
 <ol type="1">
-<li>Point your browser to this repository (<a href="https://github.com/semcneil/doxygen-cmake-github">https://github.com/semcneil/doxygen-cmake-github</a>)</li>
-<li>Press the "Use this template" button</li>
-<li>Give your repository a new name</li>
-<li>Write a short (one sentence) description of what your project will do</li>
-<li>Click the Create repository from template button</li>
-</ol>
-<h2><a class="anchor" id="autotoc_md2"></a>
-VS Code VM Instructions</h2>
-<ol type="1">
-<li>VS Code needs the following extension added:<ol type="a">
-<li>C/C++ from Microsoft</li>
-<li>CMake Tools also from Microsoft</li>
-</ol>
-</li>
-<li>Connect to Host in New Window</li>
-<li>Open a terminal (<code>ctrl+</code>`)</li>
-<li>Initialize git if you haven't already using the same email you used on your GitHub account:<ol type="a">
-<li><code>git config --global user.email "you@example.com"</code></li>
-<li><code>git config --global user.name "Your Name"</code></li>
-</ol>
-</li>
-<li>Navigate to the parent directory for your project</li>
-<li>Clone your repository using the URL from the GitHub Code button on your repository and on VS Code either clone repository on the Welcome screen or open the Command Palette (ctrl+shift+P), type <code>git clone</code> and select <code>Git: Clone</code><ol type="a">
-<li>Select the parent directory for your project</li>
-<li>Open the cloned repository either as prompted or by adding the newly created folder to your workspace by the Welcome tab's Open folder link or File -&gt; Add Folder to Workspace</li>
-<li>If you use the command line <code>git clone</code> the authentications for pushing to your online repository are not set up</li>
-</ol>
-</li>
-<li>If you wait a bit it should ask you which kit you want to use (at the time of this writing I typically use GCC 9.3.0)</li>
-<li>Allow Intellisense if prompted</li>
-<li>Edit <a class="el" href="README_8md.html">README.md</a> to reflect your new project</li>
-<li>Edit the <code>project</code> line in the CMakeLists.txt file to have your project's name and version</li>
-<li>Edit the <code>add_executable</code> line in the CMakeLists.txt file to change the name of the executable file to something relevant</li>
-<li>Change the @brief, @details, @author, and @date in <a class="el" href="main_8cpp.html" title="This is a test of CMake, doxygen, and GitHub.">src/main.cpp</a></li>
-<li>To create the PDF on a standard Ubuntu install, the following need to be added: <code>sudo apt install graphviz texlive-latex-base texlive-latex-recommended texlive-latex-extra</code></li>
-<li>Doxygen also needs installing: <code>sudo apt install doxygen</code></li>
-<li>In the terminal, change to the <code>build</code> directory (should have been automatically generated)</li>
-<li>Run the following:<ol type="a">
-<li><code>make</code></li>
-<li><code>make docs</code></li>
-<li><code>make pdf</code></li>
-</ol>
-</li>
-<li>Add the newly named PDF to git staging (<code>git status</code> -&gt; <code>git add docs/yourprojectname.pdf</code>)</li>
-<li>Commit all the changes: <code>git commit -a -m "Initial commit"</code></li>
-<li>Push the changes to GitHub: <code>git push origin main</code></li>
-<li>Back at your repository on GitHub, refresh the page to show latest commit</li>
-<li>In the Settings tab, scroll down to GitHub Pages</li>
-<li>Select "Branch: main" as source and "/docs" as the folder and then press Save</li>
-<li>Scroll back down to GitHub Pages and click the link to the published site</li>
-<li>You now have a C++ repository with doxygen output hosted on GitHub Pages<ol type="a">
-<li>The link usually doesn't work for a while (minutes to hours). This can be worked around by adding <code>index.html</code> to the end of the URL. A second commit will also fix it once the commit propagates over to GitHub Pages.</li>
-<li>You can see the PDF file generated by Doxygen by adding the name of the PDF to the end of the URL. It will be of the form <code>projectname.pdf</code> and can be seen in the <code>docs</code> folder.</li>
-<li>It can take a few minutes for a new <code>git push origin main</code> to propagate over to GitHub Pages</li>
-</ol>
-</li>
-<li>Edit <a class="el" href="README_8md.html">README.md</a> to reflect your project usage and point to the Doxygen output for your project</li>
-<li>Stage the commit (<code>git add <a class="el" href="README_8md.html">README.md</a></code>)</li>
-<li>Commit (<code>git commit -a -m "Describe your changes here"</code>)</li>
-<li>Push your changes to GitHub as before (<code>git push origin main</code>)</li>
+<li>The program source code can be found at (<a href="https://github.com/addisgithub/Options-Algo.git">https://github.com/addisgithub/Options-Algo.git</a>) or ()</li>
+<li>After cloning the templete, you can run the pprogram from the main file in src.</li>
 </ol>
 <h2><a class="anchor" id="autotoc_md3"></a>
-General Usage</h2>
-<p>During normal development, you will change <a class="el" href="main_8cpp.html" title="This is a test of CMake, doxygen, and GitHub.">main.cpp</a>, maybe add more files in the src directory, make them, and run them. To update the documentation on the web do the following at a terminal prompt in your project's <code>build</code> directory:</p><ol type="1">
-<li><code>make</code></li>
-<li><code>make docs</code></li>
-<li><code>make pdf</code> Then in your project's root directory do the following:</li>
-<li>Check the git status: <code>git status</code></li>
-<li><code>git commit -a -m "Describe your changes since last commit"</code><ol type="a">
-<li>The <code>-a</code> flag is used to commit all the updated documentation files</li>
-<li>VS Code also has git built into it, but the use of branches isn't as easy a workflow as the commandline offers for me (personal opinion).</li>
-</ol>
-</li>
-</ol>
+Instructions &amp; Examples</h2>
+<p>Although the data is given by the developer you can edit the file as needed. The two maps used to show the data are portfolio &amp; values both can be altered and are found in the constuctor of the class.</p>
 <h1><a class="anchor" id="autotoc_md4"></a>
+Data structures &amp; Agorithms</h1>
+<ol type="1">
+<li>Maps are used frequently in this program because of their key value paring structure. They are used to match between differnt data sets using their keys.</li>
+<li>Vectors are used in this program for storage of strings(tickers).</li>
+<li>The algorithm calculates the average amount of expiring contracts in accordance to our porfolio and optimizes our porfolio to maintain eual or below market average. <br  />
+</li>
+<li>Since this data was made by the developer it was easier to traverse through using loops but if it was a larger data set pulled by an API of actual stock market option chain data set then we can use a graph structure and traverse through it using bfs or dfs.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md5"></a>
 References</h1>
 <ol type="1">
-<li><a href="https://www.doxygen.nl/manual/docblocks.html">https://www.doxygen.nl/manual/docblocks.html</a></li>
-<li><a href="https://stackoverflow.com/questions/44212101/cmake-how-to-have-add-custom-command-run-after-all-project-files-are-built">https://stackoverflow.com/questions/44212101/cmake-how-to-have-add-custom-command-run-after-all-project-files-are-built</a></li>
-<li>Very useful overview: <a href="https://caiorss.github.io/C-Cpp-Notes/Doxygen-documentation.html">https://caiorss.github.io/C-Cpp-Notes/Doxygen-documentation.html</a></li>
-<li><a href="https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sphinx-breathe-doxygen-cmake/">https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sphinx-breathe-doxygen-cmake/</a></li>
-<li><a href="https://vicrucann.github.io/tutorials/quick-cmake-doxygen/">https://vicrucann.github.io/tutorials/quick-cmake-doxygen/</a></li>
-<li><a href="https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13">https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13</a></li>
-<li><a href="https://stackoverflow.com/questions/18590445/cmake-custom-command-to-copy-and-rename">https://stackoverflow.com/questions/18590445/cmake-custom-command-to-copy-and-rename</a> </li>
+<li><a href="https://www.geeksforgeeks.org/">https://www.geeksforgeeks.org/</a></li>
+<li><a href="https://www.cplusplus.com/reference/algorithm/find/">https://www.cplusplus.com/reference/algorithm/find/</a></li>
+<li><a href="https://stackoverflow.com/">https://stackoverflow.com/</a> </li>
 </ol>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
